@@ -1,0 +1,16 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.a
+
+# Generated config table for the sweep
+tunable_configs.inc
+
+# Sweep CSV dumps
+sweep_*.csv
+
+# Editor / OS
+*.swp
+*.swo
+.DS_Store
