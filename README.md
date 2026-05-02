@@ -1,4 +1,4 @@
-# idea1-matmul-matvec-cuda
+# Tunable_MatMul_MatVec
 
 A small CUDA SGEMM benchmark for `C[M,N] = A[M,K] * B[K,N]` (row-major, FP32).
 Compares four implementations:
@@ -15,7 +15,7 @@ Compares four implementations:
 ## Layout
 
 ```
-idea1-matmul-matvec-cuda/
+Tunable_MatMul_MatVec/
 ├── naive_kernel.cu        our naive kernel
 ├── tunable_kernel.cu      our tunable kernel + per-size dispatcher
 ├── bench.cu               main benchmark; cuBLAS / CUTLASS calls inline
